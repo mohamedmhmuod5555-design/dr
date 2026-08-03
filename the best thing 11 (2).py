@@ -1,7 +1,8 @@
-import random
-import time
-import os
-import streamlit as st
+if st.button("العب و اصل لليفله "):
+ import random
+ import time
+ import os
+ import streamlit as st
 if 'level' not in st.session_state:
   
   if os.path.exists("level_code.txt"):
@@ -33,6 +34,9 @@ if 'feed' not in st.session_state:
  st.session_state.feed=0
 if 'hearts' not in st.session_state:
  st.session_state.hearts=3
+if 'coins' not in st.session_state:
+ st.session_state.coins=3
+  
 
 
 num1 = st.session_state.num1
