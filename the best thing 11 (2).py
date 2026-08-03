@@ -33,7 +33,8 @@ if 'feed' not in st.session_state:
  st.session_state.feed=0
 if 'hearts' not in st.session_state:
  st.session_state.hearts=3
-
+if 'coins' not in st.session_state:
+ st.session_state.coins=0
 
 num1 = st.session_state.num1
 num2 = st.session_state.num2
