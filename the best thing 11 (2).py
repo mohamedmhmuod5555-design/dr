@@ -1,5 +1,4 @@
 import streamlit as st
-if st.button("العب و اصل لليفله "):
  import random
  import time
  import os
