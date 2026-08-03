@@ -35,7 +35,7 @@ if st.button("العب و اصل لليفله "):
  if 'hearts' not in st.session_state:
   st.session_state.hearts=3
  if 'coins' not in st.session_state:
-  st.session_state.coins=3
+  st.session_state.coins=0
   
 
 
